@@ -12,7 +12,7 @@ A proposta do projeto é auxiliar ONG´s sem fins lucrativos a expor as suas aç
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### NodeJs
+###### NodeJs
 
 - Express
 - Nodemon
@@ -20,9 +20,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Sqlite
 - Cors
 
-### ReactJs
+##### ReactJs
 
-#### React Native
+##### React Native
 
 ## 🤔 Como contribuir
 

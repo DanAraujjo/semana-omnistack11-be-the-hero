@@ -21,11 +21,11 @@
 
 ### Libs Adcionais
 
-### Sqlite
+##### Sqlite
 
 - Instalação: `yarn add sqlite3`
 
-#### [Knex.js](http://knexjs.org/)
+##### [Knex.js](http://knexjs.org/)
 
 - Instalação: `yarn add knex`
 - Configuração: `yarn knex init`
