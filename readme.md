@@ -1,7 +1,7 @@
 # To Be Hero
 
 <h1 align="center">
-    <img alt="" title="" src=".github/print.png" width="480px" />
+    <img alt="" title="" src=".github/logo.svg" width="480px" />
 </h1>
 
 ## 💻 Projeto
