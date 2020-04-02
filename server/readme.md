@@ -21,6 +21,10 @@
 
 ### Libs Adcionais
 
+- celebrate
+- cross-env
+- supertest
+
 ##### Sqlite
 
 - Instalação: `yarn add sqlite3`
@@ -31,3 +35,8 @@
 - Configuração: `yarn knex init`
 - Migrations: `yan knex migrate:make nome-da-migration`
 - Executar a migration: `yarn knex migrate:latest`
+
+##### Jest (teste)
+
+- Instalação: `yarn add jest -D`
+- Configuração: `yarn jest init`

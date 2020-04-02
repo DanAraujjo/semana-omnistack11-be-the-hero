@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiPower, FiTrash2 } from "react-icons/fi";
+import { toast } from "react-toastify";
 
 import api from "../../services/api";
 import "./styles.css";
@@ -36,7 +37,7 @@ export default function Profile() {
 
       setIncidents(incidents.filter(incident => incident.id !== id));
     } catch (error) {
-      alert("Erro ao deletar caso, tente novamente.");
+      toast.error("Erro ao deletar caso, tente novamente.");
     }
   }
 

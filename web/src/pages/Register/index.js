@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
+import { toast } from "react-toastify";
 
 import api from "../../services/api";
 
@@ -31,11 +32,11 @@ export default function Register() {
     try {
       const response = await api.post("ongs", data);
 
-      alert(`Seu ID de acesso é: ${response.data.id}`);
+      toast.info(`Seu ID de acesso é: ${response.data.id}`);
 
       history.push("/");
     } catch (error) {
-      alert("Erro no cadastro, tente novamente.");
+      toast.error("Erro no cadastro, tente novamente.");
     }
   }
 

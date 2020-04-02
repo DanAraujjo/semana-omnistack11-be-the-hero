@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiLogIn } from "react-icons/fi";
+import { toast } from "react-toastify";
 
 import api from "../../services/api";
 import "./styles.css";
@@ -23,7 +24,7 @@ export default function Logon() {
 
       history.push("/profile");
     } catch (error) {
-      alert("Falha no login. Tente novamente!");
+      toast.error("Falha no login. Tente novamente!");
     }
   }
 
