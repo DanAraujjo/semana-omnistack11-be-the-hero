@@ -12,18 +12,29 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ##### NodeJs
 
-- Express
-- Nodemon
-- Knex
-- Sqlite
-- Cors
+- express
+- nodemon
+- lnex
+- sqlite3
+- cors
+- celebrate
+- cross-env
+- jest
+- supertest
 
 ##### ReactJs
-- Axios
-- React Icons
-- React Router Dom
 
-##### React Native
+- axios
+- react-icons
+- react-router-dom
+- react-toastify
+
+##### React Native (Expo)
+
+- axios
+- expo-constants
+- expo-mail-composer
+- intl
 
 ## 🤔 Como contribuir
 
