@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - express
 - nodemon
-- lnex
+- knex
 - sqlite3
 - cors
 - celebrate
