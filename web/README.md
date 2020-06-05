@@ -11,4 +11,4 @@
 - react-icons
 - react-router-dom
 - axios
-  -react-toastify
+- react-toastify
