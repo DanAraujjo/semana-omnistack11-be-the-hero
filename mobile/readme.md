@@ -1,4 +1,4 @@
-# M0bile (React Native)
+# Mobile (React Native)
 
 > Iremos utilizar o [Expo](https://expo.io/) para criação do nosso projeto.
 
